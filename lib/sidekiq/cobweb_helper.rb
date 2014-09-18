@@ -11,7 +11,7 @@ if Gem::Specification.find_all_by_name("resque", ">=1.0.0").count >= 1
   require 'resque'
 else
   RESQUE_INSTALLED = false
-  puts "resque gem not installed, skipping crawl_job specs"
+  #puts "resque gem not installed, skipping crawl_job specs"
 end
 
 module Sidekiq
